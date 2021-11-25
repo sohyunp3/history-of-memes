@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/Joeclinton1/google-images-download.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "patch-1"]
+	remote = origin
+	merge = refs/heads/patch-1
